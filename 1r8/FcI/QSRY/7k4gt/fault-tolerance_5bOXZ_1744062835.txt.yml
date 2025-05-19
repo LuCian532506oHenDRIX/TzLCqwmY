@@ -5,5 +5,4 @@ exclude_pattern:
 
   # given that the other files are automatically generated.
   - restapi/
-  - !restapi/configure_weaviate*
   - test/
