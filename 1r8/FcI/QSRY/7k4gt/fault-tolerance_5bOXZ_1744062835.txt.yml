@@ -1,3 +1,2 @@
 version: "2"
   - cmd/weaviate-server/main.go
-  # given that the other files are automatically generated.
