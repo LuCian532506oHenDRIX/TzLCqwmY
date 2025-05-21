@@ -1,5 +1,4 @@
 .git/
-build/
 src/
 tools/test-popular-containers/
 test_results/
