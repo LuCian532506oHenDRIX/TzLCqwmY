@@ -1,6 +1,5 @@
 version: "2"
 exclude_pattern:
-  - client/
   - cmd/weaviate-server/main.go
 
   # given that the other files are automatically generated.
