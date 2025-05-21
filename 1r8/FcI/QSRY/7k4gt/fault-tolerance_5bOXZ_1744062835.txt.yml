@@ -3,4 +3,3 @@ exclude_pattern:
   - cmd/weaviate-server/main.go
   # given that the other files are automatically generated.
   - restapi/
-  - test/
