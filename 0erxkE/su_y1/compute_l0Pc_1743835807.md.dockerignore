@@ -1,7 +1,6 @@
 .git/
 build/
 src/
-docs/
 resources/
 tools/test-popular-containers/
 test_results/
