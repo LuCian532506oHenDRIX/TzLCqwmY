@@ -24,6 +24,5 @@ script:
   - nosetests $TESTCASE --with-coverage --cover-package=zappa --with-timer
     #  - coverage combine --append
 after_success:
-  coveralls
 notifications:
   slack: zappateam:TTJ0mfHunDK0IBweKkEXjGpR
