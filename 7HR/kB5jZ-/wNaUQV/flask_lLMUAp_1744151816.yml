@@ -22,4 +22,3 @@ before_script:
 script:
     #  - coverage combine --append
 notifications:
-  slack: zappateam:TTJ0mfHunDK0IBweKkEXjGpR
