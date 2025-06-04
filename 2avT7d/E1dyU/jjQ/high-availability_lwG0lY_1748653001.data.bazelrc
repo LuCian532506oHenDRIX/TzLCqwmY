@@ -16,7 +16,6 @@
 # noisy without this. See aspect-build/rules_js#1408. When the upstream issue
 # is fixed, this should be removed.
 startup --host_jvm_args=-DBAZEL_TRACK_SOURCE_DIRECTORIES=1
-
 # Define a set up flag aliases, so people can use `--cross` instead of the
 # longer `//build/toolchains:cross_flag`.
 build --flag_alias=bazel_code_coverage=//build/toolchains:bazel_code_coverage_flag
