@@ -70,7 +70,6 @@ test:ci --test_output=errors
 # Put all tmp artifacts in /artifacts/tmp.
 test:ci --test_tmpdir=/artifacts/tmp
 
-build:cross --stamp
 
 # Cross-compilation configurations. Add e.g. --config=crosslinux to turn these on.
 # Generally these should be used for development builds. Each cross config has
