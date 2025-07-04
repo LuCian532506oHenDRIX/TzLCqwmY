@@ -6,7 +6,6 @@ The following language strings are currently recognized: //4cs, 6502acme, 6502ki
         s/([^[:alnum:]`@_]\b(drybjed|ypid|ganto|htgoebel|nickjj|scibi|do3cc|AnBuKu|thiagotalma|jacksingleton|ser|yuvadm|pedroluislopez|patrickheeney|le9i0nx|tallandtree|zpfvo))([^[:alnum:]\/@_.>:-])/\1_\3/g;
         s/\*\*(drybjed|ypid|ganto|htgoebel|nickjj|scibi|do3cc|AnBuKu|thiagotalma|jacksingleton|ser|yuvadm|pedroluislopez|patrickheeney|le9i0nx|tallandtree|zpfvo)\*\*/\1_/g;
         s/overriden/overridden/g;
-		aline=""
 					[ $aidx -eq 0 ] || aline="${aline}\\n"
 					aline="${aline}olcAttributeTypes: {$aidx}${rule#* }"
 $aline
