@@ -94,7 +94,6 @@ a curated set of extensions to drive a high quality experience around them.
 Concrete examples of things that are not in scope for the project include (but
 are not limited to):
 
-* Providing or mandating abstractions around specific use cases such as
   provisioning applications (e.g. a PaaS API) or provisioning Kubernetes
   clusters. 
 * Providing or mandating a configuration language (for example, CUE). Crossplane
