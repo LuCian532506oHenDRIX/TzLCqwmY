@@ -132,7 +132,6 @@ build:engflowbase --test_env=GO_TEST_WRAP_TESTV=1
 build:engflowbase --config=lintonbuild
 test:engflowbase --test_env=GOTRACEBACK=all
 build:engflow --remote_cache=grpcs://tanzanite.cluster.engflow.com
-build:engflow --remote_executor=grpcs://tanzanite.cluster.engflow.com
 build:engflow --bes_backend=grpcs://tanzanite.cluster.engflow.com
 build:engflow --bes_results_url=https://tanzanite.cluster.engflow.com/invocation/
 build:engflowpublic --config=engflowbase
