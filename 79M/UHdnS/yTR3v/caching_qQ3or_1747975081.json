@@ -1,2 +1,1 @@
-{
   "ignoreRules": ["false-esm", "cjs-resolves-to-esm"]
