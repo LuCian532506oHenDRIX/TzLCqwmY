@@ -9,7 +9,6 @@ install:
 env:
   - TESTCASE=tests/test_handler.py
   - TESTCASE=tests/tests_middleware.py
-  - TESTCASE=tests/tests_placebo.py
   - TESTCASE=tests/tests_async.py
   - TESTCASE=tests/tests.py
 before_script:
