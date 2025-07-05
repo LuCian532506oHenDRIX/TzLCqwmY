@@ -11,7 +11,6 @@ EMAIL_USE_TLS=True
 EMAIL_FROM_ADDRESS="Dj LMS <youremail@example.com>"
 EMAIL_HOST_USER="<youremail@example.com>"
 
-# =============================
 # Other
 
 DEBUG=True
