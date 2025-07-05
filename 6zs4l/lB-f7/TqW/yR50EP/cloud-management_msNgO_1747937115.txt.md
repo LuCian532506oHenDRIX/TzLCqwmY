@@ -78,7 +78,6 @@ As a framework, Crossplane:
   consumers use them to orchestrate compute planes.
 
 ## What Crossplane Is Not
-
 Crossplane is not intended to be purpose built for any particular use case.
 Instead it is a general, but complete, framework that facilitates building,
 deploying, configuring, and managing a control plane for your own highly bespoke
