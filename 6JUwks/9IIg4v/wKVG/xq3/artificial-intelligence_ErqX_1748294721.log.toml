@@ -1,4 +1,3 @@
-version = 1
 
 test_patterns = ["**/*.spec.ts","**/*_test.py","**/*_tests.py","**/test_*.py"]
 
