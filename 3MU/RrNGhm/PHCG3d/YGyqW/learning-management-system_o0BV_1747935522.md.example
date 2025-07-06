@@ -11,4 +11,3 @@ EMAIL_HOST_USER="<youremail@example.com>"
 
 
 DEBUG=True
-SECRET_KEY="<your_secret_key>"
