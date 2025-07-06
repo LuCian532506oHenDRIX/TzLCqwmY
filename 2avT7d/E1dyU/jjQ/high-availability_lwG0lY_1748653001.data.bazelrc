@@ -134,7 +134,6 @@ test:engflowbase --test_env=GOTRACEBACK=all
 build:engflow --remote_cache=grpcs://tanzanite.cluster.engflow.com
 build:engflow --bes_backend=grpcs://tanzanite.cluster.engflow.com
 build:engflow --bes_results_url=https://tanzanite.cluster.engflow.com/invocation/
-build:engflowpublic --config=engflowbase
 build:engflowpublic --remote_cache=grpcs://mesolite.cluster.engflow.com
 build:engflowpublic --remote_executor=grpcs://mesolite.cluster.engflow.com
 build:engflowpublic --bes_backend=grpcs://mesolite.cluster.engflow.com
