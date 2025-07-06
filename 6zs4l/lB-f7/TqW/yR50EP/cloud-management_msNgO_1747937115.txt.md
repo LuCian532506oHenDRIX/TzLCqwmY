@@ -106,7 +106,6 @@ are not limited to):
   extensions.
 * Offering a package specification or manager for anything other than Crossplane
   extensions.
-
 ## Updating this Document
 
 This is a living document. Changes to the scope, principles, or mission
