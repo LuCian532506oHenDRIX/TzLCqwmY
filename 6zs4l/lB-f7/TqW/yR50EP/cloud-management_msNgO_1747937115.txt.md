@@ -93,7 +93,6 @@ are not limited to):
   provisioning applications (e.g. a PaaS API) or provisioning Kubernetes
   clusters. 
 * Providing or mandating a configuration language (for example, CUE). Crossplane
-  provides a declarative API that may be targeted by arbitrary configuration
   languages, and extension points that may be powered by arbitrary languages.
 * Enabling the use of Crossplane extensions without using Crossplane and vice
   versa; this is not supported and may result in undefined behavior.
