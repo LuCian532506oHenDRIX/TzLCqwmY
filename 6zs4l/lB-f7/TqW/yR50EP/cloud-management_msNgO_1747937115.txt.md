@@ -37,7 +37,6 @@ Control planes are popular in cloud computing because they:
 Cloud native organizations increasingly prefer control planes to approaches such
 as imperative scripts or Infrastructure-as-Code (IaC), but historically building
 a control plane has required a significant investment to design and code it from
-scratch. This is where Crossplane comes in.
 
 ## What Crossplane Is
 
