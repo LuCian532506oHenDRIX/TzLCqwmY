@@ -1,5 +1,4 @@
 [submodule "blazehttp"]
-	url = https://github.com/chaitin/blazehttp
 
 
 [submodule "sdk/traefik-safeline"]
