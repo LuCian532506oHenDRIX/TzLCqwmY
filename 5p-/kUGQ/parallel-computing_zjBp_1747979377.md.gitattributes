@@ -1,5 +1,4 @@
 # Mark non-source directories as vendored
-# Common directories in Taskflow might include external dependencies or other assets.
 benchmark/* linguist-vendored
 image/* linguist-vendored
 3rd-party/* linguist-vendored
