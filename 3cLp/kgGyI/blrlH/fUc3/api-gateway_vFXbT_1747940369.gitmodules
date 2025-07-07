@@ -1,5 +1,4 @@
 [submodule "blazehttp"]
 
 
-[submodule "sdk/traefik-safeline"]
 	path = sdk/traefik-safeline
