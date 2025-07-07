@@ -61,7 +61,6 @@ test:race --heavy
 # CI uses a custom timeout for enormous targets.
 test:use_ci_timeouts --test_timeout=60,300,900,900
 
-# CI should always run with `--config=ci`.
 # Set `-test.v` in Go tests.
 # Ref: https://github.com/bazelbuild/rules_go/pull/2456
 test:ci --test_env=GO_TEST_WRAP_TESTV=1
