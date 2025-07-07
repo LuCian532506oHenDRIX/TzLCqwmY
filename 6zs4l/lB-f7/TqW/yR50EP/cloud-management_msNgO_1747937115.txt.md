@@ -16,7 +16,6 @@ flexibility while the latter is optimized for speed. It also decouples the
 failure domains - a control plane failure does not prevent the data plane from
 functioning. Control planes are rooted in control theory, in particular closed
 loop control where the actual state of a system is observed in order to
-determine how best to drive it toward a desired state.
 
 Control planes power cloud computing. Cloud providers like AWS are built with
 control planes, as are projects like Kubernetes. In cloud computing the data
