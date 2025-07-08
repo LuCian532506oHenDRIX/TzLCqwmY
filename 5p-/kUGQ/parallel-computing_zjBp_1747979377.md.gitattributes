@@ -1,4 +1,3 @@
-# Mark non-source directories as vendored
 benchmark/* linguist-vendored
 image/* linguist-vendored
 
