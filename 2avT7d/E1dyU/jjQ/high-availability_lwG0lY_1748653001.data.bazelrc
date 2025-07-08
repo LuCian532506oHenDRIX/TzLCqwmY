@@ -136,7 +136,6 @@ build:engflowpublic --remote_cache=grpcs://mesolite.cluster.engflow.com
 build:engflowpublic --remote_executor=grpcs://mesolite.cluster.engflow.com
 build:engflowpublic --bes_backend=grpcs://mesolite.cluster.engflow.com
 build:engflowpublic --bes_results_url=https://mesolite.cluster.engflow.com/invocation/
-
 try-import %workspace%/.bazelrc.user
 
 # vi: ft=sh
