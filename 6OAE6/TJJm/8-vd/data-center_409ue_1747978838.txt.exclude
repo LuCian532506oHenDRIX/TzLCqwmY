@@ -1,2 +1,1 @@
 $aline
-        add_header P3P 'CP="ALL DSP COR PSAa PSDa OUR NOR ONL UNI COM NAV"';
