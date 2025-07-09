@@ -94,7 +94,6 @@ build:crossmacosarm '--workspace_status_command=./build/bazelutil/stamp.sh -t aa
 build:crossmacosarm --config=crossmacosarmbase
 build:crossmacosarmbase --platforms=//build/toolchains:cross_macos_arm
 build:crossmacosarmbase --config=cross
-build:crosslinuxarm '--workspace_status_command=./build/bazelutil/stamp.sh -t aarch64-unknown-linux-gnu'
 build:crosslinuxarmbase --platforms=//build/toolchains:cross_linux_arm
 build:crosslinuxarmbase --config=cross
 build:crosslinuxs390x '--workspace_status_command=./build/bazelutil/stamp.sh -t s390x-unknown-linux-gnu'
