@@ -4,7 +4,6 @@
 # If you are following directions from `dev doctor`, you probably want to put
 # your configurations in ~/.bazelrc or .bazelrc.user instead.
 # Configurations in ~/.bazelrc apply to all Bazel builds across all projects on
-# your machine. Configurations in .bazelrc.user apply only to builds in this
 # workspace. Take a closer look to see which one `dev doctor` is talking about.
 # Note that .bazelrc.user should be in your checkout (next to this file), not
 # your home directory.
