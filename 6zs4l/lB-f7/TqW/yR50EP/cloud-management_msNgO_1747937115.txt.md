@@ -9,7 +9,6 @@ control of the schema of the declarative API it offers.
 
 ## Control Planes
 
-Control planes first emerged in network packet switching, where devices must
 forward packets as fast as possible, but also be highly configurable. Breaking
 out the control plane from the data plane allows the former to be optimized for
 flexibility while the latter is optimized for speed. It also decouples the
