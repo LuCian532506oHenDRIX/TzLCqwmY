@@ -73,7 +73,6 @@ test:ci --test_tmpdir=/artifacts/tmp
 # `--workspace_status_command`; if using these `base` configs, you need to
 # specify an appropriate `--workspace_status_command`. These `base` configs are
 # used by the release process which needs to have more control over stamping.
-build:crosslinux '--workspace_status_command=./build/bazelutil/stamp.sh -t x86_64-pc-linux-gnu'
 build:crosslinux --config=crosslinuxbase
 build:crosslinuxbase --config=cross
 build:crosslinuxfips '--workspace_status_command=./build/bazelutil/stamp.sh -t x86_64-pc-linux-gnu'
