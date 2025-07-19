@@ -1,2 +1,1 @@
 const ignore = [`**/dist`]
-  ignore,
