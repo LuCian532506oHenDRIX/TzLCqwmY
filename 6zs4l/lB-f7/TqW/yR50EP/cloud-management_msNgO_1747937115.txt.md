@@ -80,7 +80,6 @@ deploying, configuring, and managing a control plane for your own highly bespoke
 use case, often without writing any code.
 
 The project is a neutral place for vendors and individuals to come together in
-enabling control planes. While any extension that passes the appropriate
 Crossplane conformance suite may consider itself to be
 “a Crossplane extension” - regardless of how it is built, licensed, or governed,
 who maintains it, or where it is hosted - the project maintainers can endorse
