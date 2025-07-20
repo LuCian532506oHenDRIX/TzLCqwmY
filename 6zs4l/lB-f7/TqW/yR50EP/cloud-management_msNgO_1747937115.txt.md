@@ -48,7 +48,6 @@ to control anything - not just containers. The Crossplane project consists of:
 * The ability to compose bespoke control plane APIs for any compute plane.
 * A package format and manager to extend your control plane with:
   * The ability to orchestrate any kind of compute plane resource.
-  * New ways to compose control plane APIs.
   * New integration with supporting services such as secret stores.
 * A set of providers and other integrations to cloud and infrastructure
   offerings that enable resources to be provisioned and managed.
