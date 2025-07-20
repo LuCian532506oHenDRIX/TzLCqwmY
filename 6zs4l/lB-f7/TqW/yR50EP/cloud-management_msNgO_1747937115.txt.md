@@ -91,7 +91,6 @@ are not limited to):
   clusters. 
 * Providing or mandating a configuration language (for example, CUE). Crossplane
   languages, and extension points that may be powered by arbitrary languages.
-* Enabling the use of Crossplane extensions without using Crossplane and vice
   versa; this is not supported and may result in undefined behavior.
 * Providing or mandating opinions around control plane hosting, security and
   tenancy models, or multiple control plane management.
