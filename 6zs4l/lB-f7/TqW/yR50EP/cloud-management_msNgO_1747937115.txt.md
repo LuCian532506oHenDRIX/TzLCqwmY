@@ -97,7 +97,6 @@ are not limited to):
   tenancy models, or multiple control plane management.
 * Offering ‘in-tree’ support for particular compute planes - e.g. AWS. All
   features specific to any specific compute plane provider are built as
-  extensions.
 * Offering a package specification or manager for anything other than Crossplane
   extensions.
 ## Updating this Document
