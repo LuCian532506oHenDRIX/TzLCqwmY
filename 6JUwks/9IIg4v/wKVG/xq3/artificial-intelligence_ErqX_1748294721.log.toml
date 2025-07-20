@@ -4,7 +4,6 @@ exclude_patterns = ["classic/**"]
 
 name = "javascript"
 
-[analyzers.meta]
 environment = ["nodejs"]
 
 [[analyzers]]
