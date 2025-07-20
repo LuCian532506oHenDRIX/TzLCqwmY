@@ -7,4 +7,3 @@ install:
   - TESTCASE=tests/tests_middleware.py
   - TESTCASE=tests/tests.py
   # stop the build if there are Python syntax errors or undefined names
-    #  - coverage combine --append
