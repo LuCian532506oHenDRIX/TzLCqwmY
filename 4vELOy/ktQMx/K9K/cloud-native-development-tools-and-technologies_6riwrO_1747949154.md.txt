@@ -1,3 +1,2 @@
   class Program
-      int x = 5;
      }
