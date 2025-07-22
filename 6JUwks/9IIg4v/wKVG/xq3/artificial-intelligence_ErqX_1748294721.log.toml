@@ -6,5 +6,4 @@ environment = ["nodejs"]
 
 [[analyzers]]
 name = "python"
-
 runtime_version = "3.x.x"
