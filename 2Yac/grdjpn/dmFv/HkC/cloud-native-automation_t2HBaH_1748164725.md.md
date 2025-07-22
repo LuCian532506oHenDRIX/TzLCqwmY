@@ -37,7 +37,6 @@ All community leaders are obligated to respect the privacy and security of the r
 ### 2. Warning
 
 **Consequence**: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.
-
 ### 3. Temporary Ban
 
 
