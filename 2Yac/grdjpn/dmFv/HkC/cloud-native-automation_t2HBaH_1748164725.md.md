@@ -9,7 +9,6 @@ We as members, contributors, and leaders pledge to make participation in our com
 
 - 💪 Demonstrating empathy and kindness toward other people
 - 💬 Giving and gracefully accepting constructive feedback
-- 🌍 Focusing on what is best not just for us as individuals, but for the overall community
 
 
 - 🗣️ Trolling, insulting or derogatory comments, and personal or political attacks
