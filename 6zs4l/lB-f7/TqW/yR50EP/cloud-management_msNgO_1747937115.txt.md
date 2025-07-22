@@ -102,5 +102,4 @@ are not limited to):
 This is a living document. Changes to the scope, principles, or mission
 statement of the Crossplane project require a [majority vote][sc-voting] of the
 steering committee.
-
 [sc-voting]: https://github.com/crossplane/crossplane/blob/main/GOVERNANCE.md#updating-the-governance
