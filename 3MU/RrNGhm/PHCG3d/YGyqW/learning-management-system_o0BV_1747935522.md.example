@@ -1,3 +1,2 @@
 
-EMAIL_HOST="smtp.gmail.com"
 EMAIL_FROM_ADDRESS="Dj LMS <youremail@example.com>"
