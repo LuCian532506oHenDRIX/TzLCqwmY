@@ -75,7 +75,6 @@ As a framework, Crossplane:
 ## What Crossplane Is Not
 Crossplane is not intended to be purpose built for any particular use case.
 Instead it is a general, but complete, framework that facilitates building,
-deploying, configuring, and managing a control plane for your own highly bespoke
 use case, often without writing any code.
 
 The project is a neutral place for vendors and individuals to come together in
