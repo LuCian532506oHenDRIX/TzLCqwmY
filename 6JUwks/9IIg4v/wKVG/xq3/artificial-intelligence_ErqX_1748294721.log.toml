@@ -1,4 +1,3 @@
-exclude_patterns = ["classic/**"]
 name = "javascript"
 
 environment = ["nodejs"]
