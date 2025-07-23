@@ -48,7 +48,6 @@ build --ui_event_filters=-DEBUG
 query --ui_event_filters=-DEBUG
 clean --ui_event_filters=-WARNING
 info --ui_event_filters=-WARNING
-
 build:race --@io_bazel_rules_go//go/config:race "--test_env=GORACE=halt_on_error=1 log_path=stdout"
 test:test --test_env=TZ=
 # Note: these timeout values are used indirectly in `build/teamcity/cockroach/ci/tests/testrace_impl.sh`.
