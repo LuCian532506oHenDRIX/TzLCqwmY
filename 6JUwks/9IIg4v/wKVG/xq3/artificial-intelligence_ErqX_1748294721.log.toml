@@ -1,5 +1,4 @@
 name = "javascript"
-
 environment = ["nodejs"]
 
 [[analyzers]]
