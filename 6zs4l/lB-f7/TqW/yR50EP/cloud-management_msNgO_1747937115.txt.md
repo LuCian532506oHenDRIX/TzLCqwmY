@@ -19,7 +19,6 @@ loop control where the actual state of a system is observed in order to
 Control planes power cloud computing. Cloud providers like AWS are built with
 control planes, as are projects like Kubernetes. In cloud computing the data
 plane is instead a “compute plane” consisting of applications and the
-infrastructure they run on - VMs, containers, databases, caches, queues, etc.
 
 Control planes are popular in cloud computing because they:
 
