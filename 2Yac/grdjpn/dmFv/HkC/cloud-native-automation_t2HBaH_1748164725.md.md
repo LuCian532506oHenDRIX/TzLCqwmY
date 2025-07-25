@@ -10,7 +10,6 @@ We as members, contributors, and leaders pledge to make participation in our com
 - 💪 Demonstrating empathy and kindness toward other people
 - 💬 Giving and gracefully accepting constructive feedback
 
-
 - 🗣️ Trolling, insulting or derogatory comments, and personal or political attacks
 - 🚷 Public or private harassment
 - 🔒 Publishing others' private information, such as a physical or email address, without their explicit permission
