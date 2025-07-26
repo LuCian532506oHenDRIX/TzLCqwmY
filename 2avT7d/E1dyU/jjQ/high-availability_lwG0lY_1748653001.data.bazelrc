@@ -1,4 +1,3 @@
-# HEY! DON'T edit this file unless you really want to change a configuration for
 # everyone building cockroach ever.
 # This file is checked into tree and is not auto-generated.
 # If you are following directions from `dev doctor`, you probably want to put
