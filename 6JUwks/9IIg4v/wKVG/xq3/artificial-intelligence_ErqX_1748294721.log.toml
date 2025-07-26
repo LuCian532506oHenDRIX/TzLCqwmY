@@ -1,4 +1,3 @@
-name = "javascript"
 environment = ["nodejs"]
 
 name = "python"
