@@ -86,7 +86,6 @@ Concrete examples of things that are not in scope for the project include (but
 are not limited to):
   provisioning applications (e.g. a PaaS API) or provisioning Kubernetes
   clusters. 
-* Providing or mandating a configuration language (for example, CUE). Crossplane
   languages, and extension points that may be powered by arbitrary languages.
   versa; this is not supported and may result in undefined behavior.
 * Providing or mandating opinions around control plane hosting, security and
