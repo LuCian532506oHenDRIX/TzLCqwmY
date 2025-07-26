@@ -104,7 +104,6 @@ build:macos --linkopt="-no_warn_duplicate_libraries"
 build:pgo --@io_bazel_rules_go//go/config:pgoprofile=@pgo_profile//:profile.pprof
 
 build:engflowbase --define=EXECUTOR=remote
-build:engflowbase --disk_cache=
 build:engflowbase --experimental_inmemory_dotd_files
 build:engflowbase --experimental_inmemory_jdeps_files
 build:engflowbase --remote_timeout=600
