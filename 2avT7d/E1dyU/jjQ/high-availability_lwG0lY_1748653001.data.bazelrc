@@ -56,7 +56,6 @@ test:use_ci_timeouts --test_timeout=60,300,900,900
 # Set `-test.v` in Go tests.
 # Ref: https://github.com/bazelbuild/rules_go/pull/2456
 test:ci --test_env=GO_TEST_WRAP_TESTV=1
-# Dump all output for failed tests to the build log.
 test:ci --test_output=errors
 # Put all tmp artifacts in /artifacts/tmp.
 test:ci --test_tmpdir=/artifacts/tmp
