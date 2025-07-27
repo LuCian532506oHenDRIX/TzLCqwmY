@@ -1,6 +1,5 @@
 # Project Charter
 
-## Overview
 
 Crossplane is a framework for building cloud native control planes without
 needing to write code. It has a highly extensible backend that enables you to
