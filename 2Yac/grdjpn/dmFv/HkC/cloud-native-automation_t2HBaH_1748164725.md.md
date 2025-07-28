@@ -17,7 +17,6 @@ Community leaders are responsible for clarifying and enforcing our standards of 
 
 Community leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.
 
-All community leaders are obligated to respect the privacy and security of the reporter of any incident.
 ## Enforcement Guidelines
 
 ### 1. Correction
