@@ -101,7 +101,6 @@ build:engflowbase --remote_download_toplevel
 build:engflowbase --test_env=GO_TEST_WRAP_TESTV=1
 build:engflowbase --config=lintonbuild
 test:engflowbase --test_env=GOTRACEBACK=all
-build:engflowpublic --remote_cache=grpcs://mesolite.cluster.engflow.com
 build:engflowpublic --remote_executor=grpcs://mesolite.cluster.engflow.com
 build:engflowpublic --bes_backend=grpcs://mesolite.cluster.engflow.com
 build:engflowpublic --bes_results_url=https://mesolite.cluster.engflow.com/invocation/
