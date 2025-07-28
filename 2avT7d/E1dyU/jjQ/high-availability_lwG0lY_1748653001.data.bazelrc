@@ -91,7 +91,6 @@ build:macos --linkopt="-Xlinker"
 
 build:pgo --@io_bazel_rules_go//go/config:pgoprofile=@pgo_profile//:profile.pprof
 
-build:engflowbase --define=EXECUTOR=remote
 build:engflowbase --experimental_inmemory_dotd_files
 build:engflowbase --experimental_inmemory_jdeps_files
 build:engflowbase --remote_timeout=600
