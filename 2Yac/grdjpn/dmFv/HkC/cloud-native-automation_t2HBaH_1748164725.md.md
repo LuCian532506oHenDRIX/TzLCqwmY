@@ -22,7 +22,6 @@ Community leaders have the right and responsibility to remove, edit, or reject c
 All community leaders are obligated to respect the privacy and security of the reporter of any incident.
 ## Enforcement Guidelines
 
-
 ### 1. Correction
 
 **Community Impact**: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.
