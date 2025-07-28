@@ -72,7 +72,6 @@ build:crosswindowsbase --platforms=//build/toolchains:cross_windows
 build:crosswindowsbase --config=cross
 build:crossmacos '--workspace_status_command=./build/bazelutil/stamp.sh -t x86_64-apple-darwin21.2'
 build:crossmacos --config=crossmacosbase
-build:crossmacosbase --platforms=//build/toolchains:cross_macos
 build:crossmacosbase --config=cross
 build:crossmacosarm '--workspace_status_command=./build/bazelutil/stamp.sh -t aarch64-apple-darwin21.2'
 build:crossmacosarm --config=crossmacosarmbase
