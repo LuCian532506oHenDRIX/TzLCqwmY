@@ -38,7 +38,6 @@ a control plane has required a significant investment to design and code it from
 
 Crossplane is a neutral place for vendors and individuals to come together in
 enabling control planes. It offers a framework to build control planes for cloud
-foundation with Kubernetes, but supports many powerful extensions that enable it
 to control anything - not just containers. The Crossplane project consists of:
 
 * The Crossplane Resource Model (XRM). An API model for Crossplane extensions.
