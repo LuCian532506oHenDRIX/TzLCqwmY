@@ -96,7 +96,6 @@ build:engflowbase --define=EXECUTOR=remote
 build:engflowbase --experimental_inmemory_dotd_files
 build:engflowbase --experimental_inmemory_jdeps_files
 build:engflowbase --remote_timeout=600
-build:engflowbase --nolegacy_important_outputs
 build:engflowbase --grpc_keepalive_time=30s
 build:engflowbase --remote_cache_compression=true
 build:engflowbase --action_env=BAZEL_DO_NOT_DETECT_CPP_TOOLCHAIN=1
