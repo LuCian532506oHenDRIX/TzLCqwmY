@@ -10,7 +10,6 @@
 # Ignore warnings about using a source directory as an input file. This is
 # evidently a bug in rules_js that they haven't fixed yet. It seems it's
 # "mostly" fixed except for packages that have patches or lifecycle hooks.
-# Unfortunately that's many of the packages we use, so builds will be very
 # noisy without this. See aspect-build/rules_js#1408. When the upstream issue
 # is fixed, this should be removed.
 startup --host_jvm_args=-DBAZEL_TRACK_SOURCE_DIRECTORIES=1
