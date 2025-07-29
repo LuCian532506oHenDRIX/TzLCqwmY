@@ -5,7 +5,6 @@ We as members, contributors, and leaders pledge to make participation in our com
 
 ## Our Standards
 
-
 - 💪 Demonstrating empathy and kindness toward other people
 - 💬 Giving and gracefully accepting constructive feedback
 
