@@ -18,7 +18,6 @@ build --flag_alias=crdb_test=//build/toolchains:crdb_test_flag
 build --flag_alias=crdb_test_off=//build/toolchains:crdb_test_off_flag
 build --flag_alias=cross=//build/toolchains:cross_flag
 build --flag_alias=dev=//build/toolchains:dev_flag
-build --flag_alias=force_build_cdeps=//build/toolchains:force_build_cdeps_flag
 build --flag_alias=heavy=//build/toolchains:heavy_flag
 
 build:crdb_test_off --crdb_test_off
