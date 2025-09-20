@@ -1,0 +1,71 @@
+// 代码生成时间: 2025-09-20 19:39:59
+import io.javalin.Javalin;
+import io.javalin.apibuilder.ApiBuilder.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+
+public class InventoryManagement {
+    // Using ConcurrentHashMap for thread-safe operations
+    private final Map<String, Integer> inventory = new ConcurrentHashMap<>();
+
+    // Initialize the Javalin app
+    public static void main(String[] args) {
+        InventoryManagement inventoryManagement = new InventoryManagement();
+        Javalin app = Javalin.create().start(7000);
+
+        // Define routes and their handlers
+        app.routes(() -> {
+            // GET /inventory/{itemId} - Retrieve inventory item count
+            app.get("inventory/{itemId}", ctx -> inventoryManagement.getInventoryItem(ctx.pathParam("itemId")));
+
+            // POST /inventory/{itemId} - Add inventory items
+            app.post("inventory/{itemId}", ctx -> inventoryManagement.addInventoryItem(ctx.pathParam("itemId")));
+
+            // PUT /inventory/{itemId} - Update inventory item count
+            app.put("inventory/{itemId}", ctx -> inventoryManagement.updateInventoryItem(ctx.pathParam("itemId")));
+
+            // DELETE /inventory/{itemId} - Delete inventory item
+            app.delete("inventory/{itemId}", ctx -> inventoryManagement.deleteInventoryItem(ctx.pathParam("itemId")));
+        });
+    }
+
+    // Retrieve inventory item count
+    public void getInventoryItem(String itemId) {
+        Integer count = inventory.get(itemId);
+        if (count == null) {
+            // Item not found
+            System.out.println("Item with ID: " + itemId + " not found.");
+        } else {
+            // Item found, print the count
+            System.out.println("Item ID: " + itemId + ", Count: " + count);
+        }
+    }
+
+    // Add inventory items
+    public void addInventoryItem(String itemId) {
+        inventory.merge(itemId, 1, Integer::sum);
+        System.out.println("Added 1 item to the inventory with ID: " + itemId);
+    }
+
+    // Update inventory item count
+    public void updateInventoryItem(String itemId) {
+        if (inventory.containsKey(itemId)) {
+            inventory.put(itemId, inventory.get(itemId) + 1);
+            System.out.println("Updated inventory item count for ID: " + itemId);
+        } else {
+            // Item not found
+            System.out.println("Item with ID: " + itemId + " not found.");
+        }
+    }
+
+    // Delete inventory item
+    public void deleteInventoryItem(String itemId) {
+        if (inventory.remove(itemId) != null) {
+            System.out.println("Deleted inventory item with ID: " + itemId);
+        } else {
+            // Item not found
+            System.out.println("Item with ID: " + itemId + " not found.");
+        }
+    }
+}
